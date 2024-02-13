@@ -1,0 +1,35 @@
+.testoPar{
+    padding: 3%;
+    display: inline;
+    color: #00FF41;
+    animation: type 3s steps(30, end); /* Aggiungere il nome dell'animazione */
+    display: block;
+    width: auto;
+    overflow-y: hidden;
+}
+
+#logoInfor{
+    position: relative;
+    top: 15px;
+    color: green;
+    /* width: 1%; */
+    font-size: 200px;
+    float: right;
+}
+
+@keyframes type {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 100%;
+        
+    }
+}
+
+@media (max-width:50em) {
+    #logoInfor{
+        display: none;
+    }
+}
+

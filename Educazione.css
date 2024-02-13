@@ -1,0 +1,44 @@
+.educazione {
+    
+}
+.primaLineaEducazione{
+    font-size: large;
+    color: #00FF41;
+    display: inline;
+}
+
+.cerchio{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #00FF41;
+}
+
+.titoloPrimaLineaEducazione{
+    color: #00FF41;
+    display: inline;
+}
+
+.testoSottoTitoloEducazione{
+    color: #00FF41;   
+    white-space: pre-wrap;
+    animation: stile 5s steps(30, end); /* Aggiungere il nome dell'animazione */
+}
+
+.educazioneContenitoreDiv{
+    padding: 3%;
+    padding-bottom: 0;
+}
+@keyframes stile {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+        
+    }
+}
+
+
+
