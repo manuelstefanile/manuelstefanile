@@ -6,18 +6,15 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Manuel Stefanile</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    
+
     <script src="https://kit.fontawesome.com/5e1004225b.js" crossorigin="anonymous"></script>
     <style>
-       
-
         .grid-container {
             display: grid;
             grid-template-columns: auto;
             grid-template-rows: auto auto auto auto auto auto;
             gap: 10px;
         }
-
     </style>
 
     <link rel="stylesheet" type="text/css" href="NavCSS.css">
@@ -61,24 +58,32 @@
         <div class="suDiMe generalContenitoreSottocap" id="suDiMe">
             <p class="titoloPar">About Me</p>
             <i id="logoInfor" class="fa-solid fa-laptop-code"></i>
-            <p class="testoPar">Sono Stefanile Manuel, un ragazzo di 25 anni appassionato dell'informatica. Vivo a Tufino, un piiccolo paesino in provincia di Napoli. A breve è prevista la laurea triennale in Informatica presso l'università di Salerno. 
-                Avendo avuto la possibilità di lavorare in gruppo ho appreso l'importanza dei compromessi e della costanza verso il lavoro.
-                 Ho una propensione per la programmazione generica ed una rigida perseveranza nella risoluzione dei bug. 
-                 Al di fuori dell'informatica, mi prende particolarmente la lettura, in particolare di classici. Sempre più di rado vedo film e serie tv anche se apprezzo particolarmente gli anime.
+            <p class="testoPar">Sono Stefanile Manuel, un ragazzo di 25 anni appassionato dell'informatica. Vivo a
+                Tufino, un piiccolo paesino in provincia di Napoli. A breve è prevista la laurea triennale in
+                Informatica presso l'università di Salerno.
+                Avendo avuto la possibilità di lavorare in gruppo ho appreso l'importanza dei compromessi e della
+                costanza verso il lavoro.
+                Ho una propensione per la programmazione generica ed una rigida perseveranza nella risoluzione dei bug.
+                Al di fuori dell'informatica, mi prende particolarmente la lettura, in particolare di classici. Sempre
+                più di rado vedo film e serie tv anche se apprezzo particolarmente gli anime.
                 I progetti da me sviluppati sono i seguenti:<br>
-                
+
                 <b>MangaShop</b> E-commerce di manga. <br>
-                
-                <b>GreenMonitoring</b> Sito web per le piccole e medie aziende che permette loro di monitorare le proprie
+
+                <b>GreenMonitoring</b> Sito web per le piccole e medie aziende che permette loro di monitorare le
+                proprie
                 coltivazioni. In questo progetto mi sono occupato della
-                creazione del database, della creazione di dati fittizi randomici inerenti al monitoraggio delle coltivazioni, di
+                creazione del database, della creazione di dati fittizi randomici inerenti al monitoraggio delle
+                coltivazioni, di
                 alcune pagine del front-end ed alla gestione delle notifiche lato front e back-end.<br>
-                
-                <b>Jailed Man</b> è un gioco per la realtà virtuale con lo scopo di apprendere l'inglese in maniera immersiva. Il gioco si ispira al gioco dell'impiccato.<br>
-                
-                <b>QuizPolis</b> è il secondo gioco realizzato per il tirocinio con lo scopo di creare un gioco in VR simile al monopoli con la funzione di migliorare l'apprendimento dell'inglese. 
+
+                <b>Jailed Man</b> è un gioco per la realtà virtuale con lo scopo di apprendere l'inglese in maniera
+                immersiva. Il gioco si ispira al gioco dell'impiccato.<br>
+
+                <b>QuizPolis</b> è il secondo gioco realizzato per il tirocinio con lo scopo di creare un gioco in VR
+                simile al monopoli con la funzione di migliorare l'apprendimento dell'inglese.
             </p>
-            
+
         </div>
 
 
@@ -87,66 +92,84 @@
         <div class="educazione generalContenitoreSottocap" id="educazione">
             <p class="titoloPar">Educazione</p>
             <div class="educazioneContenitoreDiv">
-            <!--prima linea con pallino-->
-            <p class="primaLineaEducazione">- -
-                <div class="cerchio"></div>
-                <p class="titoloPrimaLineaEducazione"> Universita degli studi Salerno</p>
-                <p class="testoSottoTitoloEducazione">|       Data inizio: 12/12/2020
+                <div class="itemEducazione">
+                    <!--prima linea con pallino-->
+                    <div class="cerchio"></div>
+                    <p class="titoloPrimaLineaEducazione">Universita degli studi di Salerno</p>
+                    <p class="testoSottoTitoloEducazione">Data inizio: 12/12/2020 <br>
+                        Data fine: in corso<br>
+                        Laurea prevista per maggio.<br>
+                    </p>
+                </div>
 
-|       Data fine: in corso
+                <div class="itemEducazione">
+                    <!--prima linea con pallino-->
+                    <div class="cerchio"></div>
+                    <p class="titoloPrimaLineaEducazione">Diploma superiore Odontotecnico</p>
+                    <p class="testoSottoTitoloEducazione">Data inizio: 01/11/2013 <br>
+                        Data fine: 15/07/2018 <br>
+                    </p>
+                </div>
 
-|       Laurea prevista per maggio.
-                </p>
-            </p>
-
-            <p class="primaLineaEducazione">- -
-                <div class="cerchio"></div>
-                <p class="titoloPrimaLineaEducazione"> Diploma superiore Odontotecnico</p>
-                <p class="testoSottoTitoloEducazione">|       Data inizio: 01/11/2013
-
-|       Data fine: 15/07/2018
-
-                </p>
-            </p>
+            </div>
         </div>
-    </div>
 
 
 
         <!--SKILLS-->
-        <div class="skills generalContenitoreSottocap" id="skills" >
+        <div class="skills generalContenitoreSottocap" id="skills">
             <p class="titoloPar">Skills</p>
             <div class="generalContenitoreSottocap paragrafoSkills">
-                <div class="itemDiFlex" onclick="mostraTesto(this)"><i class="fa-brands fa-java logoProgrammazione"></i><p>Java</p>
-                    <p class="testoSkillsDettaglio"> java è stato utilizzaro per i vari progetti durante il corso dell'università. 
-                        In particolare lo studio dei generics e dei threads. In java ho realizzato le componenti servlet, dao e manager per i vari
-                    progetti durante l'università. Ho potuto utilizzare anche JavaEE e l'utilizzo delle annotazioni</p>
+                <div class="itemDiFlex" onclick="mostraTesto(this)"><i class="fa-brands fa-java logoProgrammazione"></i>
+                    <p>Java</p>
+                    <p class="testoSkillsDettaglio"> java è stato utilizzaro per i vari progetti durante il corso
+                        dell'università.
+                        In particolare lo studio dei generics e dei threads. In java ho realizzato le componenti
+                        servlet, dao e manager per i vari
+                        progetti durante l'università. Ho potuto utilizzare anche JavaEE e l'utilizzo delle annotazioni
+                    </p>
                 </div>
-                <div class="itemDiFlex" onclick="mostraTesto(this)"><i class="fa-brands fa-js logoProgrammazione"></i><p>JavaScript</p>
-                    <p class="testoSkillsDettaglio"> JavaScript è stato impiegato per la gestionione della comunicazione con le servlet in maniera asincrona
+                <div class="itemDiFlex" onclick="mostraTesto(this)"><i class="fa-brands fa-js logoProgrammazione"></i>
+                    <p>JavaScript</p>
+                    <p class="testoSkillsDettaglio"> JavaScript è stato impiegato per la gestionione della comunicazione
+                        con le servlet in maniera asincrona
                         e per la realizzazione di alcuni fattori estetici per i vati siti sviluppati.
                     </p>
                 </div>
-                <div class="itemDiFlex" onclick="mostraTesto(this)"><i class="fa-brands fa-python logoProgrammazione"></i><p>Python</p>
+                <div class="itemDiFlex" onclick="mostraTesto(this)"><i
+                        class="fa-brands fa-python logoProgrammazione"></i>
+                    <p>Python</p>
                     <p class="testoSkillsDettaglio"> Lo studio di Python è stato incentrato sui Design Pattern.
-                         Avendo avuto la possibilità di scegliere la materia Programmazione Avanzata, ho potuto apprendere le basi di python
+                        Avendo avuto la possibilità di scegliere la materia Programmazione Avanzata, ho potuto
+                        apprendere le basi di python
                         ed una decina di Design Pattern </p>
                 </div>
-                <div class="itemDiFlex" onclick="mostraTesto(this)"><i class="fa-solid fa-database logoProgrammazione"></i><p>MySQL</p>
-                    <p class="testoSkillsDettaglio"> Di MySQL ho appreso le basi, grazie all'esame Base di dati e tramite l'utilizzo
+                <div class="itemDiFlex" onclick="mostraTesto(this)"><i
+                        class="fa-solid fa-database logoProgrammazione"></i>
+                    <p>MySQL</p>
+                    <p class="testoSkillsDettaglio"> Di MySQL ho appreso le basi, grazie all'esame Base di dati e
+                        tramite l'utilizzo
                         all'interno dei vari progetti. </p>
                 </div>
-                <div class="itemDiFlex" onclick="mostraTesto(this)"><i class="fa-brands fa-html5 logoProgrammazione"></i><p>HTML5</p>
+                <div class="itemDiFlex" onclick="mostraTesto(this)"><i
+                        class="fa-brands fa-html5 logoProgrammazione"></i>
+                    <p>HTML5</p>
                     <p class="testoSkillsDettaglio"> HTML è stato utilizzato per i vari progetti per il web</p>
                 </div>
-                <div class="itemDiFlex" onclick="mostraTesto(this)"><i class="fa-brands fa-css3-alt logoProgrammazione"></i><p>CSS</p>
-                    <p class="testoSkillsDettaglio"> Lo studio di CSS è andato di pari passo con quello di HTML e JavaScrip ed è stato
+                <div class="itemDiFlex" onclick="mostraTesto(this)"><i
+                        class="fa-brands fa-css3-alt logoProgrammazione"></i>
+                    <p>CSS</p>
+                    <p class="testoSkillsDettaglio"> Lo studio di CSS è andato di pari passo con quello di HTML e
+                        JavaScrip ed è stato
                         impiegato per la formattazione e lo stile degli elementi HTML.
 
                     </p>
                 </div>
-                <div class="itemDiFlex" onclick="mostraTesto(this)"><p id="logoCSharp">C#</p><p>C sharp</p>
-                    <p class="testoSkillsDettaglio"> C# è stato utilizzato all'interno di Unity per la creazione dei due giochi per il tirocinio
+                <div class="itemDiFlex" onclick="mostraTesto(this)">
+                    <p id="logoCSharp">C#</p>
+                    <p>C sharp</p>
+                    <p class="testoSkillsDettaglio"> C# è stato utilizzato all'interno di Unity per la creazione dei due
+                        giochi per il tirocinio
                         e per una serie di piccoli progetti.
                     </p>
                 </div>
@@ -159,15 +182,49 @@
         <div class="progetti generalContenitoreSottocap" id="progetti">
             <p class="titoloPar">Progetti</p>
             <div class="grigliaProgetti">
-                <div class="steloESottoPocoProgetti"><p class="testoConLinkProgettiRoot testoConLinkProgetti">Gituhb <a href="https://github.com/manuelstefanile">https://github.com/manuelstefanile</a></p></div><div class="vuotoProgetti"></div><div class="vuotoProgetti"></div>
+                <div class="steloESottoPocoProgetti">
+                    <p class="testoConLinkProgettiRoot testoConLinkProgetti">Gituhb <a
+                            href="https://github.com/manuelstefanile">https://github.com/manuelstefanile</a></p>
+                </div>
+                <div class="vuotoProgetti"></div>
+                <div class="vuotoProgetti"></div>
 
-                <div class="steloESottoProgetti"><p class="testoConLinkProgetti">Web</p></div><div class="vuotoProgetti"></div><div class="vuotoProgetti"></div>
-                <div class="steloESottoProgetti"></div><div class="sottoProgetti"><p class="testoConLinkProgetti">MangaShop <a href="https://github.com/manuelstefanile/MangaShop">https://github.com/manuelstefanile/MangaShop</a></p></div><div class="vuotoProgetti"></div>
-                <div class="steloESottoProgetti"></div><div class="sottoProgetti"><p class="testoConLinkProgetti">Portfolio</p></div><div class="vuotoProgetti"></div>
+                <div class="steloESottoProgetti">
+                    <p class="testoConLinkProgetti">Web</p>
+                </div>
+                <div class="vuotoProgetti"></div>
+                <div class="vuotoProgetti"></div>
+                <div class="steloESottoProgetti"></div>
+                <div class="sottoProgetti">
+                    <p class="testoConLinkProgetti">MangaShop <a
+                            href="https://github.com/manuelstefanile/MangaShop">https://github.com/manuelstefanile/MangaShop</a>
+                    </p>
+                </div>
+                <div class="vuotoProgetti"></div>
+                <div class="steloESottoProgetti"></div>
+                <div class="sottoProgetti">
+                    <p class="testoConLinkProgetti">Portfolio</p>
+                </div>
+                <div class="vuotoProgetti"></div>
 
-                <div class="steloESottoProgetti"><p class="testoConLinkProgetti">Games</p></div><div class="vuotoProgetti"></div><div class="vuotoProgetti"></div>
-                <div class="steloESottoProgetti"></div><div class="sottoProgetti"><p class="testoConLinkProgetti">JaileMan <a href="https://github.com/manuelstefanile/JailedMan.git">https://github.com/manuelstefanile/JailedMan.git</a></p></div><div class="vuotoProgetti"></div>
-                <div class="steloESottoProgetti"></div><div class="sottoProgetti"><p class="testoConLinkProgetti">QuizPolis <a href="">https://github.com/manuelstefanile/QuizPolis.git </a></p></div><div class="vuotoProgetti"></div>
+                <div class="steloESottoProgetti">
+                    <p class="testoConLinkProgetti">Games</p>
+                </div>
+                <div class="vuotoProgetti"></div>
+                <div class="vuotoProgetti"></div>
+                <div class="steloESottoProgetti"></div>
+                <div class="sottoProgetti">
+                    <p class="testoConLinkProgetti">JaileMan <a
+                            href="https://github.com/manuelstefanile/JailedMan.git">https://github.com/manuelstefanile/JailedMan.git</a>
+                    </p>
+                </div>
+                <div class="vuotoProgetti"></div>
+                <div class="steloESottoProgetti"></div>
+                <div class="sottoProgetti">
+                    <p class="testoConLinkProgetti">QuizPolis <a
+                            href="">https://github.com/manuelstefanile/QuizPolis.git </a></p>
+                </div>
+                <div class="vuotoProgetti"></div>
 
             </div>
         </div>
@@ -182,9 +239,11 @@
                     <i class="logoProgrammazione fa-brands fa-linkedin"></i>
                     <p class="righeContatti">|</p>
                     <div class="cerchio"></div>
-                    <p class="testoContatti" onmouseover="ColoraLogo(this,true)" onmouseleave="ColoraLogo(this,false)" 
-                    ontouchstart="ColoraLogo(this,true)" ontouchend="ColoraLogo(this,false)">
-                        <a class="coloreVerdeScuro"  href="https://www.linkedin.com/in/manuel-stefanile/">manuel-stefanile</a></p>
+                    <p class="testoContatti" onmouseover="ColoraLogo(this,true)" onmouseleave="ColoraLogo(this,false)"
+                        ontouchstart="ColoraLogo(this,true)" ontouchend="ColoraLogo(this,false)">
+                        <a class="coloreVerdeScuro"
+                            href="https://www.linkedin.com/in/manuel-stefanile/">manuel-stefanile</a>
+                    </p>
                 </div>
                 <div class="footerItemContetti">
                     <p class="nomeContatti">Email</p>
@@ -193,21 +252,23 @@
                     <i class="logoProgrammazione fa-solid fa-envelope"></i>
                     <p class="righeContatti">|</p>
                     <div class="cerchio"></div>
-                    <p class="testoContatti emailDaCopiare" onclick="copia(this)" 
-                    onmouseover="ColoraLogo(this,true)" onmouseleave="ColoraLogo(this,false)" 
-                    ontouchstart="ColoraLogo(this,true)" ontouchend="ColoraLogo(this,false)">
-                    Stefanilemanuel0@gmail.com</p>
+                    <p class="testoContatti emailDaCopiare" onclick="copia(this)" onmouseover="ColoraLogo(this,true)"
+                        onmouseleave="ColoraLogo(this,false)" ontouchstart="ColoraLogo(this,true)"
+                        ontouchend="ColoraLogo(this,false)">
+                        Stefanilemanuel0@gmail.com</p>
                 </div>
                 <div class="footerItemContetti">
                     <p class="nomeContatti">Instagram</p>
                     <p class="righeContatti time1">|</p>
                     <p class="righeContatti time2">|</p>
-                    <i class= "logoProgrammazione fa-brands fa-square-instagram"></i>
+                    <i class="logoProgrammazione fa-brands fa-square-instagram"></i>
                     <p class="righeContatti time3">|</p>
                     <div class="cerchio"></div>
-                    <p class="testoContatti"onmouseover="ColoraLogo(this,true)" onmouseleave="ColoraLogo(this,false)" 
-                    ontouchstart="ColoraLogo(this,true)" ontouchend="ColoraLogo(this,false)">
-                        <a class="coloreVerdeScuro" href="https://www.instagram.com/manuelstefanile?igsh=dGNueDVud3Jtcm5k">Stefanile Manuel</a></p>
+                    <p class="testoContatti" onmouseover="ColoraLogo(this,true)" onmouseleave="ColoraLogo(this,false)"
+                        ontouchstart="ColoraLogo(this,true)" ontouchend="ColoraLogo(this,false)">
+                        <a class="coloreVerdeScuro"
+                            href="https://www.instagram.com/manuelstefanile?igsh=dGNueDVud3Jtcm5k">Stefanile Manuel</a>
+                    </p>
                 </div>
                 <div class="footerItemContetti">
                     <p class="nomeContatti">Curriculum</p>
@@ -216,13 +277,15 @@
                     <i class="logoProgrammazione fa-solid fa-file"></i>
                     <p class="righeContatti">|</p>
                     <div class="cerchio"></div>
-                    <p class="testoContatti scaricaCV" download="CV"
-                    onmouseover="ColoraLogo(this,true)" onmouseleave="ColoraLogo(this,false)" 
-                    ontouchstart="ColoraLogo(this,true)" ontouchend="ColoraLogo(this,false)">
-                        <a class="coloreVerdeChiaro" href="CV-ManuelStefanile.pdf" download="CV-ManuelStefanile.pdf">Download</a></p>
+                    <p class="testoContatti scaricaCV" download="CV" onmouseover="ColoraLogo(this,true)"
+                        onmouseleave="ColoraLogo(this,false)" ontouchstart="ColoraLogo(this,true)"
+                        ontouchend="ColoraLogo(this,false)">
+                        <a class="coloreVerdeChiaro" href="CV-ManuelStefanile.pdf"
+                            download="CV-ManuelStefanile.pdf">Download</a>
+                    </p>
                 </div>
 
-                
+
             </div>
         </div>
 
@@ -230,48 +293,48 @@
     <div id="messaggio">Il tuo messaggio qui</div>
 
     <script>
-        function CercaLogo(el){
-            while(el){
-                if(el.classList.contains('logoProgrammazione')){
+        function CercaLogo(el) {
+            while (el) {
+                if (el.classList.contains('logoProgrammazione')) {
                     return el;
-                }else el=el.previousElementSibling;
+                } else el = el.previousElementSibling;
             }
             return null;
         }
 
         /* se boleano è true allora il mouse è sopra*/
-        function ColoraLogo(oggetto,boleano){
+        function ColoraLogo(oggetto, boleano) {
             console.log("sono in colora");
-            var Fratello= oggetto.previousElementSibling;
+            var Fratello = oggetto.previousElementSibling;
 
 
             /*prendi l oggetto logo*/
-            var logoFratello=CercaLogo(Fratello);
+            var logoFratello = CercaLogo(Fratello);
             console.log(logoFratello);
-            if(logoFratello){
+            if (logoFratello) {
                 console.log("esiste bro");
-                if(boleano){
+                if (boleano) {
                     console.log("sono sopra");
-                    logoFratello.style.color="#00FF41";
-                }else {
+                    logoFratello.style.color = "#00FF41";
+                } else {
                     console.log("sono fuori");
-                    logoFratello.style.color="#008F11";
+                    logoFratello.style.color = "#008F11";
                 }
             }
         }
 
-        function copia(oggetto){
-            var testo=oggetto.textContent;
+        function copia(oggetto) {
+            var testo = oggetto.textContent;
             console.log(testo);
-        // Crea una textarea temporanea per copiare il testo
+            // Crea una textarea temporanea per copiare il testo
             var textareaTemporanea = document.createElement("textarea");
             textareaTemporanea.value = testo;
-        // Aggiungi la textarea temporanea al documento
+            // Aggiungi la textarea temporanea al documento
             document.body.appendChild(textareaTemporanea);
-        // Seleziona e copia il testo dalla textarea temporanea
+            // Seleziona e copia il testo dalla textarea temporanea
             textareaTemporanea.select();
             document.execCommand("copy");
-        // Rimuovi la textarea temporanea dal documento
+            // Rimuovi la textarea temporanea dal documento
             document.body.removeChild(textareaTemporanea);
             mostraMessaggio("copiato");
         }
@@ -279,7 +342,7 @@
         function mostraMessaggio(testo) {
             var x = event.clientX;
             var y = event.clientY;
-            y-=30;
+            y -= 30;
             var messaggioElemento = document.getElementById('messaggio');
             messaggioElemento.innerText = testo;
 
@@ -287,57 +350,57 @@
             messaggioElemento.style.left = x + 'px';
             messaggioElemento.style.top = y + 'px';
 
-            setTimeout(function() {
+            setTimeout(function () {
                 messaggioElemento.style.display = 'none';
             }, 1000); // 2000 millisecondi = 2 secondi
         }
 
 
 
-        function mostraTesto(oggetto){
-            var boleano=false;
+        function mostraTesto(oggetto) {
+            var boleano = false;
             var testoDettaglio = oggetto.querySelector('.testoSkillsDettaglio');
             //se esiste
             if (testoDettaglio) {
-                if(testoDettaglio.style.display!='block'){
-                    testoDettaglio.style.display = 'block'; 
-                }else {
+                if (testoDettaglio.style.display != 'block') {
+                    testoDettaglio.style.display = 'block';
+                } else {
                     testoDettaglio.style.display = 'none';
                     //testo gia aperto
-                    boleano=true;
+                    boleano = true;
                 }
-                    
+
             }
 
-            var testi=document.querySelectorAll(".testoSkillsDettaglio");
-            testi.forEach(function(testo){
-                if(testo===testoDettaglio){
-                }else
-                    testo.style.display='none';
+            var testi = document.querySelectorAll(".testoSkillsDettaglio");
+            testi.forEach(function (testo) {
+                if (testo === testoDettaglio) {
+                } else
+                    testo.style.display = 'none';
             });
 
             //setta la dimensione e riduci le altre
-            var oggettiDiv=document.querySelectorAll(".itemDiFlex");
-            oggettiDiv.forEach(function(singoloDiv){
-                if(singoloDiv===oggetto&&!boleano){
-                    oggetto.style.width="90%";
-                }else{
-                    singoloDiv.style.width="148px";
+            var oggettiDiv = document.querySelectorAll(".itemDiFlex");
+            oggettiDiv.forEach(function (singoloDiv) {
+                if (singoloDiv === oggetto && !boleano) {
+                    oggetto.style.width = "90%";
+                } else {
+                    singoloDiv.style.width = "148px";
                 }
             });
-            
+
         }
 
 
 
         document.getElementById("menuInput").addEventListener("change", function () {
-            
+
             if (this.checked) {
-                document.querySelectorAll('.logoNavbar')[0].style.display='none';
-                document.querySelectorAll('.logoNavbar')[1].style.display='block';
+                document.querySelectorAll('.logoNavbar')[0].style.display = 'none';
+                document.querySelectorAll('.logoNavbar')[1].style.display = 'block';
             } else {
-                document.querySelectorAll('.logoNavbar')[1].style.display='none';
-                document.querySelectorAll('.logoNavbar')[0].style.display='block';
+                document.querySelectorAll('.logoNavbar')[1].style.display = 'none';
+                document.querySelectorAll('.logoNavbar')[0].style.display = 'block';
             }
         })
     </script>

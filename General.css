@@ -27,3 +27,9 @@ body {
     z-index: 1000;
     color:  #0D0208;
 }
+
+@media (max-width:340px){
+    .generalContenitoreSottocap {
+        padding: 10px 0px 10px 3px;
+    }
+}
