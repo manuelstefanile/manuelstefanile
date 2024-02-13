@@ -1,0 +1,53 @@
+
+.paragrafoSkills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.itemDiFlex{
+    border-color: #008F11;
+    border-style: dotted;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 148px;
+    text-align: center;
+    padding: 10px;
+}
+
+.itemDiFlex:hover{
+    cursor: pointer;
+}
+
+.itemDiFlex:hover p{
+    color: #00FF41;
+}
+
+.itemDiFlex:hover .logoProgrammazione{
+    color: #00FF41;
+}
+
+
+.itemDiFlex p{
+    color: #00FF41;
+}
+
+.logoProgrammazione{
+    font-size: 60px;
+    color:  #008F11;
+}
+
+.testoSkillsDettaglio{
+    display: none;
+}
+
+.itemDiFlex:hover #logoCSharp{
+    color: #00FF41;
+}
+#logoCSharp{
+    color:  #008F11;
+    margin: 0;
+    font-size: 60px;
+}

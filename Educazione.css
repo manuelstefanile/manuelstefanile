@@ -1,0 +1,56 @@
+
+.primaLineaEducazione{
+    font-size: large;
+    color: #00FF41;
+    display: inline;
+}
+
+.cerchio{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #00FF41;
+}
+
+.titoloPrimaLineaEducazione{
+    color: #00FF41;
+    display: inline;
+}
+
+.testoSottoTitoloEducazione{
+    color: #00FF41;   
+    animation: stile 5s steps(30, end); /* Aggiungere il nome dell'animazione */
+    border-style: dashed;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.educazioneContenitoreDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.itemEducazione {
+    margin-right: 80px;
+}
+@media (max-width:670px){
+    .itemEducazione{
+        margin-right: 20px;
+    }
+}
+
+
+@keyframes stile {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+        
+    }
+}
+
+
+
